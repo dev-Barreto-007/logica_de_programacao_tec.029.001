@@ -1,0 +1,13 @@
+nome = input("Seu nome: ").strip().title()
+email = input("Seu email: ").strip().lower()
+cpf = input("Seu cpf: " ).strip()
+telefone = input("Seu número de telefone: (com DDD): ").strip()
+idade = int(input("Sua idade: "))
+altura = float(input("Sua altura: ").replace(',', '.'))
+
+print(f"Nome: {nome}") 
+print(f"Email: {email}") 
+print(f"CPF: {cpf}") 
+print(f"Telefone: {telefone}")  
+print(f"Anos: {idade}") 
+print(f"Altura: {altura}") 

@@ -8,8 +8,8 @@ media = (nota1+nota2)/2
 print(f"Média:{media}")
 
 if media >= 7:
-    print(f"{nome} está aprovado.")
+    print(f"{nome} felizmente está aprovado.")
 elif media >=5:
-    print(f"{nome} está de recuperação.")
+    print(f"{nome} infeliznente está de recuperação.")
 else:
-    print(f"{nome} está reprovado.")
+    print(f"{nome} infelizmente está reprovado.")
